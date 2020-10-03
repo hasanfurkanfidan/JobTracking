@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hff.JobTracking.Entities", "Hff.JobTracking.Entities\Hff.JobTracking.Entities.csproj", "{6C37CCD6-A5C1-4056-A7C0-A3537ED361A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hff.JobTracking.DataAccess", "Hff.JobTracking.DataAccess\Hff.JobTracking.DataAccess.csproj", "{C6C9B375-FB38-4DFB-88DA-CE9A98696995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hff.JobTracking.Business", "Hff.JobTracking.Business\Hff.JobTracking.Business.csproj", "{5B1ECDBD-FA96-4B58-ABDA-FBA828B82BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hff.JobTracking.MVC", "Hff.JobTracking.MVC\Hff.JobTracking.MVC.csproj", "{5AD7F59B-FA2B-4F5A-AA39-B5A94344F8B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hff.JobTracking.API", "Hff.JobTracking.API\Hff.JobTracking.API.csproj", "{F82C53C1-55E3-4D22-9F5D-909A932D00BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Core", "DevFramework.Core\DevFramework.Core.csproj", "{61320F4C-42A7-4A56-BB19-4AD3D5DA2A76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C37CCD6-A5C1-4056-A7C0-A3537ED361A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C37CCD6-A5C1-4056-A7C0-A3537ED361A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C37CCD6-A5C1-4056-A7C0-A3537ED361A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C37CCD6-A5C1-4056-A7C0-A3537ED361A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C9B375-FB38-4DFB-88DA-CE9A98696995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C9B375-FB38-4DFB-88DA-CE9A98696995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C9B375-FB38-4DFB-88DA-CE9A98696995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C9B375-FB38-4DFB-88DA-CE9A98696995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1ECDBD-FA96-4B58-ABDA-FBA828B82BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1ECDBD-FA96-4B58-ABDA-FBA828B82BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1ECDBD-FA96-4B58-ABDA-FBA828B82BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1ECDBD-FA96-4B58-ABDA-FBA828B82BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD7F59B-FA2B-4F5A-AA39-B5A94344F8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD7F59B-FA2B-4F5A-AA39-B5A94344F8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD7F59B-FA2B-4F5A-AA39-B5A94344F8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD7F59B-FA2B-4F5A-AA39-B5A94344F8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82C53C1-55E3-4D22-9F5D-909A932D00BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82C53C1-55E3-4D22-9F5D-909A932D00BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82C53C1-55E3-4D22-9F5D-909A932D00BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82C53C1-55E3-4D22-9F5D-909A932D00BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61320F4C-42A7-4A56-BB19-4AD3D5DA2A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61320F4C-42A7-4A56-BB19-4AD3D5DA2A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61320F4C-42A7-4A56-BB19-4AD3D5DA2A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61320F4C-42A7-4A56-BB19-4AD3D5DA2A76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE7F0D92-5243-457A-AA32-9A7EE7E697A1}
+	EndGlobalSection
+EndGlobal
