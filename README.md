@@ -29,5 +29,7 @@ BAŞLANGIÇ TARİHİ:03.10.2020
 TAHMİNİ BİTİŞ TARİHİ:03.11.2020
 
 Teknoloji önerilerinizi linkedin hesabından mesaj olarak atabilirsiniz.
+
 https://www.linkedin.com/in/hasan-furkan-fidan-b887b8196/
+
 Hasan Furkan Fidan
