@@ -43,5 +43,12 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Concrete\Managers\" />
+    <Folder Include="DependencyResolvers\Ninject\" />
+    <Folder Include="Mapping\AutoMapper\" />
+    <Folder Include="ValidationRules\FluentValidation\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

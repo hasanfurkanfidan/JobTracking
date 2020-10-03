@@ -54,6 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IReportDal.cs" />
+    <Compile Include="Abstract\IRoleDal.cs" />
+    <Compile Include="Abstract\IUrgencyDal.cs" />
     <Compile Include="Abstract\IUserDal.cs" />
     <Compile Include="Abstract\IWorkDal.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\ReportMap.cs" />
@@ -63,6 +66,8 @@
     <Compile Include="Concrete\EntityFramework\Mappings\UserRoleMap.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\UserWorkMap.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\WorkMap.cs" />
+    <Compile Include="Concrete\EntityFramework\RoleDal.cs" />
+    <Compile Include="Concrete\EntityFramework\UrgencyDal.cs" />
     <Compile Include="Concrete\EntityFramework\UserDal.cs" />
     <Compile Include="Concrete\EntityFramework\JobTrackingContext.cs" />
     <Compile Include="Concrete\EntityFramework\WorkDal.cs" />
