@@ -1,4 +1,5 @@
 ﻿using DevFramework.Core.DataAccess.EntityFramework;
+using Hff.JobTracking.DataAccess.Abstract;
 using Hff.JobTracking.Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Hff.JobTracking.DataAccess.Concrete.EntityFramework
 {
-   public class RoleDal:EfEntityRepositoryBase<Role,JobTrackingContext>
+   public class RoleDal:EfEntityRepositoryBase<Role,JobTrackingContext>,IRoleDal
     {
     }
 }
