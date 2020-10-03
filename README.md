@@ -1,4 +1,4 @@
--Bu uygulama şirkette yöneticilerin şirket çalışanlarına görevler verebileceği aynı zamanda raporlar ile görevlerin taibinin yapılacağı bir uygulamaya dönüşecektir.
+-Bu uygulama şirkette yöneticilerin şirket çalışanlarına görevler verebileceği aynı zamanda raporlar ile görevlerin takibinin yapılacağı bir uygulamaya dönüşecektir.
 
 -Uygulamada kullanılacak teknolojiler:
 
@@ -28,4 +28,6 @@ BAŞLANGIÇ TARİHİ:03.10.2020
 
 TAHMİNİ BİTİŞ TARİHİ:03.11.2020
 
+Teknoloji önerilerinizi linkedin hesabından mesaj olarak atabilirsiniz.
 
+Hasan Furkan Fidan
