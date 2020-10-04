@@ -18,16 +18,16 @@ namespace Hff.JobTracking.Business.Concrete.Managers
         private readonly IWorkDal _workDal;
         private readonly IUserDal _userDal;
         private readonly IUserWorkDal _userWorkDal;
-        public WorkManager(IWorkDal _workDal,IUserDal _userDal,IUserWorkDal userWorkDal)
+        public WorkManager(IWorkDal workDal,IUserDal userDal,IUserWorkDal userWorkDal)
         {
-            _workDal = this._workDal;
-            _userDal = this._userDal;
+            _workDal = workDal;
+            _userDal = userDal;
             _userWorkDal = userWorkDal;
         }
 
         public Work AddWork(Work work)
         {
-            throw new NotImplementedException();
+            return MapperHelper.MapToSameType(_workDal.Add(work));
         }
 
         public UserWork AssignWork(Work work,List< User> users)

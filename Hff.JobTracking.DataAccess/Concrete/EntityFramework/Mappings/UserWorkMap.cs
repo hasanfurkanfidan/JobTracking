@@ -13,7 +13,7 @@ namespace Hff.JobTracking.DataAccess.Concrete.EntityFramework.Mappings
         public UserWorkMap()
         {
             HasKey(p => p.Id);
-            HasIndex(p => new { p.WorkId, p.UserId }).IsUnique();
+          
             HasRequired(p => p.Work).WithMany(prop => prop.UserWorks).HasForeignKey(p => p.WorkId);
             HasRequired(p => p.User).WithMany(prop => prop.UserWorks).HasForeignKey(p => p.UserId);
         }

@@ -13,7 +13,9 @@ namespace Hff.JobTracking.DataAccess.Concrete.EntityFramework
 {
    public class JobTrackingContext:DbContext
     {
-      
+        public JobTrackingContext():base("JobTrackingContext")
+        {
+        }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new WorkMap());

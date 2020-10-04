@@ -19,6 +19,9 @@ namespace Hff.JobTracking.Business.DependencyResolvers.Ninject
             Bind<IUserDal>().To<UserDal>().InSingletonScope();
             Bind<IRoleService>().To<RoleManager>();
             Bind<IRoleDal>().To<RoleDal>().InSingletonScope();
+            Bind<IWorkService>().To<IWorkService>();
+            Bind<IWorkDal>().To<WorkDal>().InSingletonScope();
+
         }
     }
 }
