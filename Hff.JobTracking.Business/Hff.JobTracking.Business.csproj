@@ -51,10 +51,12 @@
     <Compile Include="Abstract\IRoleService.cs" />
     <Compile Include="Abstract\IUrgencyService.cs" />
     <Compile Include="Abstract\IUserService.cs" />
+    <Compile Include="Abstract\IWorkService.cs" />
     <Compile Include="Concrete\Managers\ReportManager.cs" />
     <Compile Include="Concrete\Managers\UrgencyManager.cs" />
     <Compile Include="Concrete\Managers\RoleManager.cs" />
     <Compile Include="Concrete\Managers\UserManager.cs" />
+    <Compile Include="Concrete\Managers\WorkManager.cs" />
     <Compile Include="DependencyResolvers\Ninject\BusinessModule.cs" />
     <Compile Include="DependencyResolvers\Ninject\NinjectFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

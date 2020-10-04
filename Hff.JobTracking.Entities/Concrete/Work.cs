@@ -26,9 +26,9 @@ namespace Hff.JobTracking.Entities.Concrete
         public List<Report> Reports { get; set; }
 
 
-       public enum State
+        public enum State
         {
-            New=0,Completed=1,Pending=2,WontCpmplete=3
+            New = 0, Completed = 1, Pending = 2, WontCpmplete = 3
         }
     }
 }

@@ -58,6 +58,7 @@
     <Compile Include="Abstract\IRoleDal.cs" />
     <Compile Include="Abstract\IUrgencyDal.cs" />
     <Compile Include="Abstract\IUserDal.cs" />
+    <Compile Include="Abstract\IUserWorkDal.cs" />
     <Compile Include="Abstract\IWorkDal.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\ReportMap.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\RoleMap.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Concrete\EntityFramework\UrgencyDal.cs" />
     <Compile Include="Concrete\EntityFramework\UserDal.cs" />
     <Compile Include="Concrete\EntityFramework\JobTrackingContext.cs" />
+    <Compile Include="Concrete\EntityFramework\UserWorkDal.cs" />
     <Compile Include="Concrete\EntityFramework\WorkDal.cs" />
     <Compile Include="Migrations\202010031137432_SixthMigration.cs" />
     <Compile Include="Migrations\202010031137432_SixthMigration.designer.cs">
