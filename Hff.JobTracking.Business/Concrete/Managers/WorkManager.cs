@@ -2,6 +2,7 @@
 using DevFramework.Core.Utilities.WebApi;
 using Hff.JobTracking.Business.Abstract;
 using Hff.JobTracking.DataAccess.Abstract;
+using Hff.JobTracking.Entities.ComplexTypes;
 using Hff.JobTracking.Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -51,6 +52,11 @@ namespace Hff.JobTracking.Business.Concrete.Managers
         {
           var work =   _workDal.Get(p => p.Id == id);
             _workDal.Delete(work);
+        }
+
+        public List<ComplexUserWorks> GetUserWorks(User user)
+        {
+            return MapperHelper.MapToSameType( _workDal.GetUserWorks(user));
         }
 
         public List<Work> GetWorks(Expression<Func<Work, bool>> filter = null)

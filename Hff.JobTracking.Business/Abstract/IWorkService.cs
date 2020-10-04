@@ -1,4 +1,5 @@
-﻿using Hff.JobTracking.Entities.Concrete;
+﻿using Hff.JobTracking.Entities.ComplexTypes;
+using Hff.JobTracking.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,5 +22,7 @@ namespace Hff.JobTracking.Business.Abstract
         void DeleteWork(int id);
         //Görevi Tamamla
         Work WorkComplete(Work work);
+
+        List<ComplexUserWorks> GetUserWorks(User user);
     }
 }

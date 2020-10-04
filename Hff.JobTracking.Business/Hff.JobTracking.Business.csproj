@@ -57,6 +57,7 @@
     <Compile Include="Concrete\Managers\RoleManager.cs" />
     <Compile Include="Concrete\Managers\UserManager.cs" />
     <Compile Include="Concrete\Managers\WorkManager.cs" />
+    <Compile Include="DependencyResolvers\Ninject\AutoMapperModule.cs" />
     <Compile Include="DependencyResolvers\Ninject\BusinessModule.cs" />
     <Compile Include="DependencyResolvers\Ninject\NinjectFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

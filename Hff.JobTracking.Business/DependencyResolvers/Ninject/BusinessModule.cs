@@ -15,9 +15,9 @@ namespace Hff.JobTracking.Business.DependencyResolvers.Ninject
     {
         public override void Load()
         {
-            Bind<IUserService>().To<UserManager>().InSingletonScope();
+            Bind<IUserService>().To<UserManager>();
             Bind<IUserDal>().To<UserDal>().InSingletonScope();
-            Bind<IRoleService>().To<RoleManager>().InSingletonScope();
+            Bind<IRoleService>().To<RoleManager>();
             Bind<IRoleDal>().To<RoleDal>().InSingletonScope();
         }
     }

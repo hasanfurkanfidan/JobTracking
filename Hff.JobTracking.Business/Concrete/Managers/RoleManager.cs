@@ -29,7 +29,8 @@ namespace Hff.JobTracking.Business.Concrete.Managers
 
         public List<Role> GetRoles()
         {
-            return MapperHelper.MapToSameType(_roleDal.GetList());
+           var roles  = MapperHelper.MapToSameType(_roleDal.GetList());
+            return roles;
         }
 
         public Role UpdateRole(Role role)
