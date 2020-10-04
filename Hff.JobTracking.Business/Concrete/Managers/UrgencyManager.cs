@@ -1,4 +1,5 @@
-﻿using Hff.JobTracking.Business.Abstract;
+﻿using DevFramework.Core.Utilities.WebApi;
+using Hff.JobTracking.Business.Abstract;
 using Hff.JobTracking.DataAccess.Abstract;
 using Hff.JobTracking.Entities.Concrete;
 using System;
@@ -18,7 +19,7 @@ namespace Hff.JobTracking.Business.Concrete.Managers
         }
         public List<Urgency> GetUrgencies()
         {
-            return _urgencyDal.GetList();
+            return MapperHelper.MapToSameType( _urgencyDal.GetList());
         }
     }
 }
