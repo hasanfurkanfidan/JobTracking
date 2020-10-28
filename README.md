@@ -26,7 +26,7 @@
 
 BAŞLANGIÇ TARİHİ:03.10.2020
 
-TAHMİNİ BİTİŞ TARİHİ:03.12.2020
+TAHMİNİ BİTİŞ TARİHİ:03.01.2021
 
 Teknoloji önerilerinizi linkedin hesabından mesaj olarak atabilirsiniz.
 
